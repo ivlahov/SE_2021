@@ -3,7 +3,7 @@ package Task1;
 import java.util.HashMap;
 
 public class Items {
-    //HashMap
+    //HashMap Object
     HashMap<String, Integer> priceMap=new HashMap<String, Integer>();
 
     public Items() {
@@ -21,6 +21,7 @@ public class Items {
 
 
     public Integer getPrice(String item) {
+
         return priceMap.get(item);
     }
 
